@@ -1,6 +1,6 @@
 import requests
 import time
-
+import json
 def get_config_value(key, filename='config.json'):
     """
     Lee el archivo JSON y devuelve el valor correspondiente a la clave especificada.
